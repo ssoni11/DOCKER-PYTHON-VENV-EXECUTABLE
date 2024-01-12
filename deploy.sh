@@ -2,7 +2,9 @@
 
 #run date
 date +"Execution time stamp: YYYY:%Y-MM:%m-DD:%d-%HH%MM%SS">>log.txt
-echo "Executino day is $date_now"
+echo "--------------------------------------"
+echo "Check log.txt for execution timestamp."
+echo "--------------------------------------"
 file=/app/requirements.txt
 
 ##check for venv
