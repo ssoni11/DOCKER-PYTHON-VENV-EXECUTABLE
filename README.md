@@ -1,5 +1,4 @@
 # Custom Python Docker Image
-docker pull sagarsonidockerhub/list-sorting
 
 ## Overview
 
