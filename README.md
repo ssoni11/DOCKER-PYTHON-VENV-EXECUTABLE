@@ -1,4 +1,5 @@
 # Custom Python Docker Image
+docker pull sagarsonidockerhub/list-sorting
 
 ## Overview
 
@@ -26,6 +27,22 @@ This repository demonstrates the creation of a custom Docker image based on the 
 3. **Usage:**
    - Developers can utilize this Docker image as a base for Python scripts that require specific packages. **Package dependencies will be handled automatically.**
 
+4. **Docker Hub Repository:**
+   - The built Docker image is available on Docker Hub at [sagarsonidockerhub/list-sorting](https://hub.docker.com/r/sagarsonidockerhub/list-sorting).
+
+## Example Output
+After running the Docker container, you should see the output of the example Python script in the terminal.
+```
+Sorted by Length: ['kiwi', 'apple', 'grape', 'banana', 'orange']
+Returning sorted list in dataframe format :          0
+0    kiwi
+1   apple
+2   grape
+3  banana
+4  orange
+Execution completed
+```
+
 ## Build and Run Instructions
 
 To build the Docker image and run the example Python script:
@@ -39,3 +56,6 @@ docker build -t DOCKER-PYTHON-VENV-EXECUTABLE:[choose version] .
 
 # Run the Docker container
 docker run DOCKER-PYTHON-VENV-EXECUTABLE:[choose version]
+
+# Pulling from Docker Hub
+docker pull sagarsonidockerhub/list-sorting
