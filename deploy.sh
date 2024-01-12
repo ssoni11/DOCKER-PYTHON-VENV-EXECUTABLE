@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #run date
-date_now=$(date+"Year: %Y, Month: %m, Day: %d")
+date +"Execution time stamp: YYYY:%Y-MM:%m-DD:%d-%HH%MM%SS">>log.txt
 echo "Executino day is $date_now"
 file=/app/requirements.txt
 
