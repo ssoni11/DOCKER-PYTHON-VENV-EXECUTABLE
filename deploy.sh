@@ -15,15 +15,22 @@ then
     python3 -m venv venvlistsorting
     
     source ./venvlistsorting/bin/activate
-    if [ -f "$file"]
+    echo "Check for $file"
+
+    if [ -f "$file" ]
     then
-        
+        echo "$file exists."
+
         pip install -r $file
+
     else
+        echo "$file does not exist."
+
         pip install pandas
         
         pip freeze > requirements.txt
     fi
+    echo "Execute .py"
     python3 listsortingonlength.py
     
     deactivate
@@ -32,6 +39,7 @@ then
 else
     echo "venv available - safe to execute: "
     python3 listsortingonlength.py
+    echo "cleanign your image."
     rm -rf venvlistsorting
 fi
 
