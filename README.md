@@ -32,10 +32,10 @@ To build the Docker image and run the example Python script:
 
 ```bash
 git clone https://github.com/ssoni11/DOCKER-PYTHON-VENV-EXECUTABLE.git
-cd custom-python-docker-image
+cd DOCKER-PYTHON-VENV-EXECUTABLE
 
 # Build the Docker image
-docker build -t custom-python-image .
+docker build -t DOCKER-PYTHON-VENV-EXECUTABLE:[choose version] .
 
 # Run the Docker container
-docker run custom-python-image
+docker run DOCKER-PYTHON-VENV-EXECUTABLE:[choose version]
