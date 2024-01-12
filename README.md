@@ -28,7 +28,7 @@ This repository demonstrates the creation of a custom Docker image based on the 
    - Developers can utilize this Docker image as a base for Python scripts that require specific packages. **Package dependencies will be handled automatically.**
 
 4. **Docker Hub Repository:**
-   - The built Docker image is available on Docker Hub at [sagarsonidockerhub/list-sorting](https://hub.docker.com/r/sagarsonidockerhub/list-sorting).
+   - The built Docker image is available on Docker Hub at [sagarsonidockerhub/docker-python-venv-executable](https://hub.docker.com/r/sagarsonidockerhub/docker-python-venv-executable).
 
 ## Example Output
 After running the Docker container, you should see the output of the example Python script in the terminal.
@@ -58,4 +58,4 @@ docker build -t DOCKER-PYTHON-VENV-EXECUTABLE:[choose version] .
 docker run DOCKER-PYTHON-VENV-EXECUTABLE:[choose version]
 
 # Pulling from Docker Hub
-docker pull sagarsonidockerhub/list-sorting
+docker pull sagarsonidockerhub/docker-python-venv-executable
