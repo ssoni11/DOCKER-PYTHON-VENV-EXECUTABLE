@@ -24,7 +24,7 @@ This repository demonstrates the creation of a custom Docker image based on the 
      - Cleans up the virtual environment to reduce image size.
 
 3. **Usage:**
-   - Developers can utilize this Docker image as a base for Python scripts that require specific packages. Package dependencies will be handled automatically.
+   - Developers can utilize this Docker image as a base for Python scripts that require specific packages. **Package dependencies will be handled automatically.**
 
 ## Build and Run Instructions
 
